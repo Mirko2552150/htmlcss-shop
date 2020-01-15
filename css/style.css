@@ -1,0 +1,68 @@
+body {
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+    /* non mettiamo come solito MARGIN PADDING BOX SIZING creando un bordino bianco */
+}
+img {
+    height: 350px;
+    width: 300px;
+}
+.banana {
+    display: inline-block;
+    border: 4px solid lightgrey;
+    position: relative;
+}
+.kiwi {
+    display: inline-block;
+    border: 4px solid lightgrey;
+    position: relative;
+}
+.mela {
+    display: inline-block;
+    border: 4px solid lightgrey;
+    position: relative;
+    bor
+}
+
+.dieci {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px;
+  color: white;
+}
+.venti {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px;
+  color: white;
+}
+.trenta {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px;
+  color: white;
+}
+.carrello {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: black;
+}
+.carrello:hover {
+    opacity: .5;
+    background-color: red;
+    color: red;
+    cursor: grab;
+}
